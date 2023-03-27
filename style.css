@@ -1,0 +1,119 @@
+html,body{
+    border: 1px dashed blue;
+    overflow: auto;
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+  
+}
+
+/* it is all for section --1  */
+.pimg1{
+   background-image: url(./nautre1.jpg);
+   min-height: 90%;
+ 
+}
+.pimg2{
+     background-image: url(./nature7.webp);
+     min-height: 400px;
+
+}
+.pimg3{
+    background-image: url(./nautre3.jpg);
+    min-height: 400px;
+
+
+}
+.pimg4{
+    background-image: url(./nature6.jfif);
+    min-height: 500px;
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  div{
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+      color: black;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+  }
+
+  .textbg{
+      background-color: #313534;
+      color: white;
+      padding: 20px;
+      
+
+  }
+
+
+  /* section----2  */
+  .sec2{
+      padding: 50px 80px;
+      text-align: center;
+      background-color: gray;
+      color: white;
+  }
+
+  #font{
+      color: aqua;
+
+  }
+
+  .colordark{
+      background-color: #313534;
+      color: #666;
+  }
+
+ 
+  a:active{
+  color: chocolate;
+  }
+  a:hover{
+color: chartreuse;
+  }
+
+  footer{
+      background-color: green;
+      text-align: center;
+      text-shadow: -5px 5px 6px blue;
+  }
+  header{
+      background-color: black;
+      color: whitesmoke;
+      text-align: center;
+
+  }
+  b{
+      border: 2px solid white;
+      padding: 20px;
+      margin: 20px ;
+      box-shadow: -5px -5px 6px rebeccapurple, 5px 5px 6px red;
+  }
+  
+  
+  
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
